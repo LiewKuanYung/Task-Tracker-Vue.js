@@ -1,10 +1,10 @@
 <template>
-  <div :class="[task.reminder ? 'reminder' : '', 'task']">
-  <!-- If task.reminder == True, return reminder class(border-left: green) -->
-  <!-- the 'task' behind is defualt to have -->
+  <div @dblclick="$emit('toggle-reminder', task.id)" :class="[task.reminder ? 'reminder' : '', 'task']">
+  <!-- If task.reminder == True, return reminder style(border-left: green) -->
     <h3>
       {{ task.text }}
-      <i @click="onDelete()" class="fas fa-times"></i>
+      <i @click="$emit('delete-task',task.id)" class="fas fa-times"></i>
+      <!-- Emit Events (Delete Task) -->
     </h3>
     <p>{{ task.day }}</p>
   </div>
