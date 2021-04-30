@@ -30,13 +30,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 3. Global style vs scoped style
 4. Vue events
 ```
-- v-on:, v-for loop
+Directives
+- v-on:, v-for loop, v-model
 - or just ":" , etc.
 ```
 5. Dynamic class
 6. $emit events
-7. 
-Building for production
+7. Toggle
+8. Building for production
 ```
 > npm run build //a dist folder will appear
 > npm i -g serve
