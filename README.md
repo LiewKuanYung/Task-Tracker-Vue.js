@@ -1,7 +1,5 @@
 # traversy-vue-2021
-A task tracker built using Vue.js
-
-[Vue Learning Resource](https://www.youtube.com/watch?v=qZXt1Aom3Cs&list=RDCMUC29ju8bIPH5as8OGnQzwJyA&index=8)
+A task tracker built using Vue.js. Visit [Vue learning resource](https://www.youtube.com/watch?v=qZXt1Aom3Cs&list=RDCMUC29ju8bIPH5as8OGnQzwJyA&index=8) or [Vue 3 documentation](https://v3.vuejs.org/guide/introduction.html#what-is-vue-js) for more details.
 
 ## Project setup
 ```
